@@ -1,0 +1,28 @@
+{
+  "name": "git-buddy",
+  "version": "1.0.0",
+  "description": "Supercharge your Git workflow with commit helpers and PR title generation",
+  "main": "dist/index.js",
+  "bin": {
+    "git-buddy": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint . --ext .ts"
+  },
+  "author": "dev-xxz",
+  "license": "MIT",
+  "dependencies": {
+    "simple-git": "^3.19.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "typescript": "^5.1.6",
+    "@types/prompts": "^2.4.2",
+    "eslint": "^8.45.0",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0"
+  }
+}

@@ -11,7 +11,7 @@ Supercharge your Git workflow with commit helpers and PR title generation.
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/git-buddy.git
+git clone https://github.com/dev-xxz/git-buddy.git
 cd git-buddy
 npm install
 npm run build
